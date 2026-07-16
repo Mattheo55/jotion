@@ -1,0 +1,8 @@
+tasks:
+  hello:
+    run: |
+      echo "👋 Bienvenue dans Hop!"
+      echo "Modifie ce fichier Hopfile pour ajouter tes propres tâches."
+  dev:
+    run: |
+      php artisan native:run
